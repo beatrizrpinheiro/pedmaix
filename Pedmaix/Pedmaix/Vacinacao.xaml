@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pedmaix.Vacinacao">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="Black"
+            RowSpacing="0" Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="*"/>
+         
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Padding="20" BackgroundColor="Gray">
+                <Label Text="Nome da Vacina:" TextColor="White" Grid.Column="0" Grid.Row="0" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="Orange" Grid.Column="1">
+                <Label Text="Tipo da Vacina:" TextColor="White" Grid.Column="1" Grid.Row="1" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="orange" Grid.Column="0" Grid.Row="1">
+                <Label Text="Data da Vacina:" TextColor="White" Grid.Column="1" Grid.Row="1" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="Gray" Grid.Column="1" Grid.Row="1">
+                <Label Text="Profissional:" TextColor="White" Grid.Column="1" Grid.Row="1" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="Gray" Grid.Column="0" Grid.Row="2">
+                <Label Text="Clínica Veterinária:" TextColor="White" Grid.Column="1" Grid.Row="1" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <StackLayout Padding="20" BackgroundColor="Orange" Grid.Column="1" Grid.Row="2">
+                <Label Text="Clínica Veterinária:" TextColor="White" Grid.Column="1" Grid.Row="1" Padding="5"/>
+                <Button Style="{StaticResource Enter}" Grid.Row="0" Grid.Column="1" FlowDirection="RightToLeft"/>
+            </StackLayout>
+
+            <FlexLayout Grid.Column="1" 
+                        Grid.Row="3" 
+                        HorizontalOptions="CenterAndExpand" 
+                        VerticalOptions="CenterAndExpand" 
+                     
+                        AlignItems="Center" 
+                        Direction="Column"
+                        Padding="20,20,-50,5">
+                <Button Style="{StaticResource ButtonCadastrar}" Grid.Column="1" Grid.Row="3"/>
+            </FlexLayout>
+
+           
+
+        </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>

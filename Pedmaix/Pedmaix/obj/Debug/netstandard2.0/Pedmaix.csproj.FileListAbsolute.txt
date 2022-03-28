@@ -1,0 +1,17 @@
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\bin\Debug\netstandard2.0\Pedmaix.deps.json
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\bin\Debug\netstandard2.0\Pedmaix.dll
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\bin\Debug\netstandard2.0\Pedmaix.pdb
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.csproj.AssemblyReference.cache
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\MainShell.xaml.g.cs
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.AssemblyInfoInputs.cache
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.AssemblyInfo.cs
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.csproj.CoreCompileInputs.cache
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.dll
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\refint\Pedmaix.dll
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Pedmaix.pdb
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\ref\Pedmaix.dll
+C:\Projetos Pessoais\Pedmaix\Pedmaix\Pedmaix\obj\Debug\netstandard2.0\Vacinacao.xaml.g.cs

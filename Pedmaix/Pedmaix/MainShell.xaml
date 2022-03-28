@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pedmaix.MainShell"
+             xmlns:name="clr-namespace:Pedmaix;assembly=Pedmaix"
+             xmlns:mainpage="clr-namespace:Pedmaix;assembly=Pedmaix"
+             BackgroundColor="orange">
+  
+    <Shell.FlyoutHeader>
+        <FlexLayout BackgroundColor="black" >
+        <Frame BackgroundColor="Orange" Padding="0"
+               HeightRequest="80" WidthRequest="80"
+               CornerRadius="40">
+                <Image Source="perfilpet.png"/>
+                
+            </Frame>
+            <StackLayout Spacing="0" Padding="10,10,0,0">
+                <Label Text="Chico"
+                       FontSize="Medium"
+                       TextColor="White"
+                       FontAttributes="Bold"/>
+                <Label Text="Proprietário(a): Ana Elisa" FontSize="Medium" TextColor="white"/>
+
+            </StackLayout>
+        </FlexLayout>
+    </Shell.FlyoutHeader>
+
+    <FlyoutItem Title="Home" Icon="home.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Vacinação" Icon="vacinacao.png">
+        <ShellContent>
+            <mainpage:Vacinacao/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Monitoramento" Icon="monitoramento.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Rotina de Alimentação" Icon="alimentacao.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Rotina de Descanso" Icon="descanso.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Relatórios" Icon="relatorios.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Solicitar Cuidado Médico" Icon="veterinario.png">
+        <ShellContent>
+            <mainpage:MainPage/>
+        </ShellContent>
+    </FlyoutItem>
+
+</Shell>
